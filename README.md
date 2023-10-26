@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Sometimes,there will be an error like :- this.state.results.map is not a valid function, this is due to the fact that the api we are using has rate limiter, when we exhaust that limit, API request returns an error, so in that case there is nothing to map on. For this, we  encourage you to use this application after sometime, or maybe after a day, if in case you have exhausted the daily api limit.
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -68,3 +70,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+Sometimes,there will be an error like :- this.state.results.map is not a valid function, this is due to the fact that the api we are using has rate limiter, when we exhaust that limit, API request returns an error, so in that case there is nothing to map on. For this, we  encourage you to use this application after sometime, or maybe after a day, if in case you have exhausted the daily api limit.
